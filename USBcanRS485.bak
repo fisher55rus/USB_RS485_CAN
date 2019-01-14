@@ -61,8 +61,6 @@ Wire Wire Line
 	5400 8525 5650 8525
 Text GLabel 5400 8825 0    50   Input ~ 0
 GND
-Wire Wire Line
-	6325 8825 5650 8825
 Text GLabel 8575 8825 2    50   Input ~ 0
 GND
 Wire Wire Line
@@ -131,7 +129,6 @@ Wire Wire Line
 	5650 8525 6325 8525
 Wire Wire Line
 	5650 8750 5650 8825
-Connection ~ 5650 8825
 Wire Wire Line
 	5650 8825 5400 8825
 $Comp
@@ -258,69 +255,69 @@ Wire Wire Line
 $Comp
 L MOTOR:Резистор_0,125Вт R5
 U 1 1 5C2410FE
-P 9400 5100
-F 0 "R5" H 9400 5250 60  0000 C CNN
-F 1 "240 Ом" H 9400 4975 60  0000 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 9400 5100 60  0001 C CNN
-F 3 "" H 9400 5100 60  0001 C CNN
-	1    9400 5100
+P 11150 5100
+F 0 "R5" H 11150 5250 60  0000 C CNN
+F 1 "240 Ом" H 11150 4975 60  0000 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 11150 5100 60  0001 C CNN
+F 3 "" H 11150 5100 60  0001 C CNN
+	1    11150 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L MOTOR:Резистор_0,125Вт R7
 U 1 1 5C241C34
-P 10050 5250
-F 0 "R7" H 10050 5400 60  0000 C CNN
-F 1 "240 Ом" H 10050 5125 60  0000 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 10050 5250 60  0001 C CNN
-F 3 "" H 10050 5250 60  0001 C CNN
-	1    10050 5250
+P 11800 5250
+F 0 "R7" H 11800 5400 60  0000 C CNN
+F 1 "240 Ом" H 11800 5125 60  0000 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 11800 5250 60  0001 C CNN
+F 3 "" H 11800 5250 60  0001 C CNN
+	1    11800 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L MOTOR:Резистор_0,125Вт R8
 U 1 1 5C241F0A
-P 10625 5400
-F 0 "R8" H 10625 5550 60  0000 C CNN
-F 1 "240 Ом" H 10625 5275 60  0000 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 10625 5400 60  0001 C CNN
-F 3 "" H 10625 5400 60  0001 C CNN
-	1    10625 5400
+P 12375 5400
+F 0 "R8" H 12375 5550 60  0000 C CNN
+F 1 "240 Ом" H 12375 5275 60  0000 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 12375 5400 60  0001 C CNN
+F 3 "" H 12375 5400 60  0001 C CNN
+	1    12375 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L MOTOR:Резистор_0,125Вт R9
 U 1 1 5C241F10
-P 11275 5550
-F 0 "R9" H 11275 5700 60  0000 C CNN
-F 1 "240 Ом" H 11275 5425 60  0000 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 11275 5550 60  0001 C CNN
-F 3 "" H 11275 5550 60  0001 C CNN
-	1    11275 5550
+P 13025 5550
+F 0 "R9" H 13025 5700 60  0000 C CNN
+F 1 "240 Ом" H 13025 5425 60  0000 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 13025 5550 60  0001 C CNN
+F 3 "" H 13025 5550 60  0001 C CNN
+	1    13025 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 5250 9000 5250
+	11400 5250 10600 5250
 Wire Wire Line
-	10225 5400 9000 5400
+	11975 5400 9000 5400
 Wire Wire Line
-	10875 5550 9000 5550
-Text GLabel 10200 5100 2    50   Input ~ 0
+	12625 5550 9000 5550
+Text GLabel 11950 5100 2    50   Input ~ 0
 U2RX
 Wire Wire Line
-	10200 5100 9800 5100
-Text GLabel 10800 5250 2    50   Input ~ 0
+	11950 5100 11550 5100
+Text GLabel 12550 5250 2    50   Input ~ 0
 U2TX
 Wire Wire Line
-	10800 5250 10450 5250
-Text GLabel 11375 5400 2    50   Input ~ 0
+	12550 5250 12200 5250
+Text GLabel 13125 5400 2    50   Input ~ 0
 C2RX
 Wire Wire Line
-	11375 5400 11025 5400
-Text GLabel 12025 5550 2    50   Input ~ 0
+	13125 5400 12775 5400
+Text GLabel 13775 5550 2    50   Input ~ 0
 C2TX
 Wire Wire Line
-	12025 5550 11675 5550
+	13775 5550 13425 5550
 Text GLabel 5100 5150 0    50   Input ~ 0
 TCK
 Text GLabel 5100 5000 0    50   Input ~ 0
@@ -341,7 +338,7 @@ U 1 1 5C24EF4A
 P 13550 2875
 F 0 "DD3" H 13550 2950 60  0000 C CNN
 F 1 "5559ИН14" H 13500 2150 60  0000 C CNN
-F 2 "MOTOR_DD:Микросхема_5559ИНхх" H 13550 2875 60  0001 C CNN
+F 2 "MOTOR_IMPORT_OTK:SO-8_RS485_CAN_Milandr_OTK" H 13550 2875 60  0001 C CNN
 F 3 "" H 13550 2875 60  0001 C CNN
 	1    13550 2875
 	1    0    0    -1  
@@ -368,16 +365,16 @@ U 1 1 5C2545D4
 P 1525 6350
 F 0 "XP5" H 1725 6425 60  0000 C CNN
 F 1 "Вилка_СНП346-6ВП21-1-В" H 1825 5575 60  0001 C CNN
-F 2 "N_X:Вилка_PLS6_вертикальная" H 1525 6350 60  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 1525 6350 60  0001 C CNN
 F 3 "" H 1525 6350 60  0001 C CNN
 	1    1525 6350
 	-1   0    0    -1  
 $EndComp
 Text GLabel 1025 6450 0    50   Input ~ 0
 5В
-Text GLabel 1025 6550 0    50   Input ~ 0
-A
 Text GLabel 1025 6650 0    50   Input ~ 0
+A
+Text GLabel 1025 6550 0    50   Input ~ 0
 B
 Text GLabel 1025 6750 0    50   Input ~ 0
 H
@@ -391,25 +388,12 @@ Text GLabel 12750 2175 0    50   Input ~ 0
 U2TX
 Text GLabel 14250 1675 2    50   Input ~ 0
 U2RX
-Text GLabel 3500 6500 0    50   Input ~ 0
+Text GLabel 3500 5450 0    50   Input ~ 0
 PE1-RSen
 Text GLabel 11825 1225 0    50   Input ~ 0
 PE1-RSen
-$Comp
-L MOTOR:Резистор_0,125Вт R10
-U 1 1 5C25C398
-P 12250 1500
-F 0 "R10" H 12250 1650 60  0000 C CNN
-F 1 "20 кОм" H 12250 1375 60  0000 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 12250 1500 60  0001 C CNN
-F 3 "" H 12250 1500 60  0001 C CNN
-	1    12250 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	11825 1225 12750 1225
-Text GLabel 11850 1500 0    50   Input ~ 0
-GND
+	11825 1225 12125 1225
 $Comp
 L MOTOR:Конденсатор_керамический C5
 U 1 1 5C265AEA
@@ -457,8 +441,8 @@ L MOTOR:5559ИН28У DD2
 U 1 1 5C275309
 P 13500 2025
 F 0 "DD2" H 13525 2525 60  0000 C CNN
-F 1 "5559ИН28У" H 13525 1650 60  0000 C CNN
-F 2 "MOTOR_DD:Микросхема_5559ИНхх" H 13500 2025 60  0001 C CNN
+F 1 "5559ИН10" H 13525 1650 60  0000 C CNN
+F 2 "MOTOR_IMPORT_OTK:SO-8_RS485_CAN_Milandr_OTK" H 13500 2025 60  0001 C CNN
 F 3 "" H 13500 2025 60  0001 C CNN
 	1    13500 2025
 	1    0    0    -1  
@@ -467,13 +451,6 @@ Text GLabel 14250 2375 2    50   Input ~ 0
 5В
 Text GLabel 14250 2225 2    50   Input ~ 0
 GND
-Wire Wire Line
-	12750 1225 12750 1500
-Wire Wire Line
-	12650 1500 12750 1500
-Connection ~ 12750 1500
-Wire Wire Line
-	12750 1500 12750 1875
 Text GLabel 12750 2975 0    50   Input ~ 0
 C2TX
 Text GLabel 12750 3575 0    50   Input ~ 0
@@ -484,7 +461,7 @@ Text GLabel 15050 2975 2    50   Input ~ 0
 5В
 Text GLabel 14250 3575 2    50   Input ~ 0
 PE2-CANen
-Text GLabel 2900 6650 0    50   Input ~ 0
+Text GLabel 3800 4100 0    50   Input ~ 0
 PE2-CANen
 $Comp
 L MOTOR:Вилка_СНП346-8ВП21-1-В XP3
@@ -543,33 +520,31 @@ PB7
 $Comp
 L MOTOR:Резистор_0,125Вт R3
 U 1 1 5C2A0D26
-P 4425 6500
-F 0 "R3" H 4425 6650 60  0000 C CNN
-F 1 "240 Ом" H 4425 6375 60  0000 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 4425 6500 60  0001 C CNN
-F 3 "" H 4425 6500 60  0001 C CNN
-	1    4425 6500
+P 4425 5450
+F 0 "R3" H 4425 5600 60  0000 C CNN
+F 1 "240 Ом" H 4425 5325 60  0000 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 4425 5450 60  0001 C CNN
+F 3 "" H 4425 5450 60  0001 C CNN
+	1    4425 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L MOTOR:Резистор_0,125Вт R2
 U 1 1 5C2A0F39
-P 3800 6650
-F 0 "R2" H 3800 6800 60  0000 C CNN
-F 1 "240 Ом" H 3800 6525 60  0000 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 3800 6650 60  0001 C CNN
-F 3 "" H 3800 6650 60  0001 C CNN
-	1    3800 6650
+P 4700 4100
+F 0 "R2" H 4700 4250 60  0000 C CNN
+F 1 "240 Ом" H 4700 3975 60  0000 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 4700 4100 60  0001 C CNN
+F 3 "" H 4700 4100 60  0001 C CNN
+	1    4700 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 6650 5100 6650
+	5100 5450 4825 5450
 Wire Wire Line
-	5100 6500 4825 6500
+	4025 5450 3500 5450
 Wire Wire Line
-	4025 6500 3500 6500
-Wire Wire Line
-	2900 6650 3400 6650
+	3800 4100 4300 4100
 Text GLabel 1400 4775 2    50   Input ~ 0
 PA0
 Text GLabel 1400 4875 2    50   Input ~ 0
@@ -642,12 +617,12 @@ NoConn ~ 3875 2750
 $Comp
 L MOTOR:Светодиод HL2
 U 1 1 5C25EAD3
-P 4300 4400
-F 0 "HL2" H 4450 4712 60  0000 C CNN
-F 1 "Светодиод" H 4450 4606 60  0000 C CNN
-F 2 "N_VD_HL:Светодиод_SMD_0603" H 4600 3900 60  0001 C CNN
-F 3 "" H 4600 3900 60  0001 C CNN
-	1    4300 4400
+P 4300 4550
+F 0 "HL2" H 4450 4862 60  0000 C CNN
+F 1 "Светодиод" H 4450 4756 60  0000 C CNN
+F 2 "N_VD_HL:Светодиод_SMD_0603" H 4600 4050 60  0001 C CNN
+F 3 "" H 4600 4050 60  0001 C CNN
+	1    4300 4550
 	-1   0    0    -1  
 $EndComp
 Text GLabel 1375 2850 2    50   Input ~ 0
@@ -655,15 +630,15 @@ GND
 $Comp
 L MOTOR:Резистор_0,125Вт R4
 U 1 1 5C2615A4
-P 4700 4400
-F 0 "R4" H 4700 4550 60  0000 C CNN
-F 1 "15 Ом" H 4700 4275 60  0000 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 4700 4400 60  0001 C CNN
-F 3 "" H 4700 4400 60  0001 C CNN
-	1    4700 4400
+P 4700 4550
+F 0 "R4" H 4700 4700 60  0000 C CNN
+F 1 "15 Ом" H 4700 4425 60  0000 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 4700 4550 60  0001 C CNN
+F 3 "" H 4700 4550 60  0001 C CNN
+	1    4700 4550
 	1    0    0    -1  
 $EndComp
-Text GLabel 4000 4400 0    50   Input ~ 0
+Text GLabel 4000 4550 0    50   Input ~ 0
 GND
 $Comp
 L MOTOR:Светодиод HL1
@@ -723,4 +698,157 @@ F 3 "" H 875 2350 60  0001 C CNN
 	1    875  2350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	12750 1225 12750 1875
+$Comp
+L MOTOR:Резистор_0,125Вт R10
+U 1 1 5C388D72
+P 12125 1625
+F 0 "R10" H 12125 1775 60  0000 C CNN
+F 1 "20 кОм" H 12125 1500 60  0000 C CNN
+F 2 "MOTOR_RLC:Конденсатор_SMD_К10-83(0603)" H 12125 1625 60  0001 C CNN
+F 3 "" H 12125 1625 60  0001 C CNN
+	1    12125 1625
+	0    1    1    0   
+$EndComp
+Connection ~ 12125 1225
+Wire Wire Line
+	12125 1225 12750 1225
+Text GLabel 12125 2025 3    50   Input ~ 0
+GND
+Text Notes 11225 1675 0    50   ~ 0
+Подтяжка к GND\nв состоянии выкл.
+Text Notes 14200 3825 0    50   ~ 0
+Действительно,\nна всякий случай
+$Comp
+L MOTOR:Конденсатор_керамический C7
+U 1 1 5C393F7B
+P 9200 8650
+F 0 "C7" V 9172 8738 60  0000 L CNN
+F 1 "16В-10мкФ" V 9278 8738 60  0000 L CNN
+F 2 "MOTOR_RLC:Конденсатор_SMD(0805)" H 9200 8650 60  0001 C CNN
+F 3 "" H 9200 8650 60  0001 C CNN
+	1    9200 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L MOTOR:Конденсатор_керамический C8
+U 1 1 5C39438E
+P 9950 8650
+F 0 "C8" V 9922 8738 60  0000 L CNN
+F 1 "16В-10мкФ" V 10028 8738 60  0000 L CNN
+F 2 "MOTOR_RLC:Конденсатор_SMD(0805)" H 9950 8650 60  0001 C CNN
+F 3 "" H 9950 8650 60  0001 C CNN
+	1    9950 8650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 8600 9200 8500
+Wire Wire Line
+	9200 8500 9950 8500
+Wire Wire Line
+	9950 8500 9950 8600
+Wire Wire Line
+	9200 8750 9200 8825
+Wire Wire Line
+	9200 8825 9950 8825
+Wire Wire Line
+	9950 8825 9950 8750
+Text GLabel 9600 8500 1    50   Input ~ 0
+3B
+Text GLabel 9600 8825 3    50   Input ~ 0
+GND
+Text Notes 9275 8275 0    50   ~ 0
+Стабилизация CPU
+$Comp
+L MOTOR:Вилка_СНП346-3ВП21-1-В XP7
+U 1 1 5C3AA3BE
+P 9775 5650
+F 0 "XP7" H 9747 5450 60  0000 R CNN
+F 1 "Вилка_СНП346-3ВП21-1-В" H 9975 5150 60  0001 C CNN
+F 2 "MOTOR_X:Вилка_СНП346-3ВП21-1-В" H 9775 5650 60  0001 C CNN
+F 3 "" H 9775 5650 60  0001 C CNN
+	1    9775 5650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 5700 9150 5700
+Wire Wire Line
+	9000 5850 9275 5850
+Wire Wire Line
+	9150 5700 9150 5950
+Wire Wire Line
+	9150 5950 9275 5950
+Wire Wire Line
+	9000 6000 9200 6000
+Wire Wire Line
+	9200 6000 9200 5750
+Wire Wire Line
+	9200 5750 9275 5750
+Wire Wire Line
+	10750 5100 9150 5100
+$Comp
+L MOTOR:Резистор_0,125Вт R12
+U 1 1 5C3CE1BE
+P 9600 4500
+F 0 "R12" H 9600 4650 60  0000 C CNN
+F 1 "15 Ом" H 9600 4375 60  0000 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 9600 4500 60  0001 C CNN
+F 3 "" H 9600 4500 60  0001 C CNN
+	1    9600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOTOR:Светодиод HL3
+U 1 1 5C3CE230
+P 10000 4500
+F 0 "HL3" H 10150 4812 60  0000 C CNN
+F 1 "Светодиод" H 10150 4706 60  0000 C CNN
+F 2 "N_VD_HL:Светодиод_SMD_0603" H 10300 4000 60  0001 C CNN
+F 3 "" H 10300 4000 60  0001 C CNN
+	1    10000 4500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9150 5100 9150 4500
+Wire Wire Line
+	9150 4500 9200 4500
+Connection ~ 9150 5100
+Wire Wire Line
+	9150 5100 9000 5100
+Text GLabel 10300 4500 2    50   Input ~ 0
+GND
+$Comp
+L MOTOR:Резистор_0,125Вт R13
+U 1 1 5C3D421D
+P 11000 4500
+F 0 "R13" H 11000 4650 60  0000 C CNN
+F 1 "15 Ом" H 11000 4375 60  0000 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 11000 4500 60  0001 C CNN
+F 3 "" H 11000 4500 60  0001 C CNN
+	1    11000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOTOR:Светодиод HL4
+U 1 1 5C3D4223
+P 11400 4500
+F 0 "HL4" H 11550 4812 60  0000 C CNN
+F 1 "Светодиод" H 11550 4706 60  0000 C CNN
+F 2 "N_VD_HL:Светодиод_SMD_0603" H 11700 4000 60  0001 C CNN
+F 3 "" H 11700 4000 60  0001 C CNN
+	1    11400 4500
+	1    0    0    1   
+$EndComp
+Text GLabel 11700 4500 2    50   Input ~ 0
+GND
+Wire Wire Line
+	10600 5250 10600 4500
+Connection ~ 10600 5250
+Wire Wire Line
+	10600 5250 9000 5250
+Text Label 9400 1650 0    50   ~ 0
+Osc+
+Text Label 9400 2250 0    50   ~ 0
+Osc-
 $EndSCHEMATC
