@@ -461,7 +461,7 @@ Text GLabel 15050 2975 2    50   Input ~ 0
 5В
 Text GLabel 14250 3575 2    50   Input ~ 0
 PE2-CANen
-Text GLabel 3800 4100 0    50   Input ~ 0
+Text GLabel 2650 4700 0    50   Input ~ 0
 PE2-CANen
 $Comp
 L MOTOR:Вилка_СНП346-8ВП21-1-В XP3
@@ -531,12 +531,12 @@ $EndComp
 $Comp
 L MOTOR:Резистор_0,125Вт R2
 U 1 1 5C2A0F39
-P 4700 4100
-F 0 "R2" H 4700 4250 60  0000 C CNN
-F 1 "240 Ом" H 4700 3975 60  0000 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 4700 4100 60  0001 C CNN
-F 3 "" H 4700 4100 60  0001 C CNN
-	1    4700 4100
+P 3550 4700
+F 0 "R2" H 3550 4850 60  0000 C CNN
+F 1 "240 Ом" H 3550 4575 60  0000 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 3550 4700 60  0001 C CNN
+F 3 "" H 3550 4700 60  0001 C CNN
+	1    3550 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -544,7 +544,7 @@ Wire Wire Line
 Wire Wire Line
 	4025 5450 3500 5450
 Wire Wire Line
-	3800 4100 4300 4100
+	2650 4700 3150 4700
 Text GLabel 1400 4775 2    50   Input ~ 0
 PA0
 Text GLabel 1400 4875 2    50   Input ~ 0
@@ -851,4 +851,36 @@ Text Label 9400 1650 0    50   ~ 0
 Osc+
 Text Label 9400 2250 0    50   ~ 0
 Osc-
+Wire Wire Line
+	3950 4700 5100 4700
+$Comp
+L elements:Предохранитель FU?
+U 1 1 5C3D9BF8
+P 2550 1000
+F 0 "FU?" H 2550 1262 60  0000 C CNN
+F 1 "Предохранитель" H 2550 1156 60  0000 C CNN
+F 2 "N_VD_HL:Fuse_1812" H 2550 1000 60  0001 C CNN
+F 3 "" H 2550 1000 60  0001 C CNN
+	1    2550 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 1000 0    50   Input ~ 0
+5В
+Text GLabel 2950 1000 2    50   Input ~ 0
+GND
+$Comp
+L elements:Предохранитель FU?
+U 1 1 5C3DA1B2
+P 3850 1000
+F 0 "FU?" H 3850 1262 60  0000 C CNN
+F 1 "Предохранитель" H 3850 1156 60  0000 C CNN
+F 2 "N_VD_HL:Fuse_1812" H 3850 1000 60  0001 C CNN
+F 3 "" H 3850 1000 60  0001 C CNN
+	1    3850 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3450 1000 0    50   Input ~ 0
+5В
+Text GLabel 4250 1000 2    50   Input ~ 0
+GND
 $EndSCHEMATC

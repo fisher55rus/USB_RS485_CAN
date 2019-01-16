@@ -853,4 +853,34 @@ Text Label 9400 2250 0    50   ~ 0
 Osc-
 Wire Wire Line
 	3950 4700 5100 4700
+$Comp
+L elements:Предохранитель FU1
+U 1 1 5C3D9BF8
+P 2550 1000
+F 0 "FU1" H 2550 1262 60  0000 C CNN
+F 1 "Предохранитель" H 2550 1156 60  0000 C CNN
+F 2 "N_VD_HL:Fuse_1812" H 2550 1000 60  0001 C CNN
+F 3 "" H 2550 1000 60  0001 C CNN
+	1    2550 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 1000 0    50   Input ~ 0
+5В
+Text GLabel 2950 1000 2    50   Input ~ 0
+GND
+$Comp
+L elements:Предохранитель FU2
+U 1 1 5C3DA1B2
+P 3850 1000
+F 0 "FU2" H 3850 1262 60  0000 C CNN
+F 1 "Предохранитель" H 3850 1156 60  0000 C CNN
+F 2 "N_VD_HL:Fuse_1812" H 3850 1000 60  0001 C CNN
+F 3 "" H 3850 1000 60  0001 C CNN
+	1    3850 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3450 1000 0    50   Input ~ 0
+5В
+Text GLabel 4250 1000 2    50   Input ~ 0
+GND
 $EndSCHEMATC

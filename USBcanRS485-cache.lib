@@ -327,4 +327,19 @@ X GND 4 -200 -300 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# elements:Предохранитель
+#
+DEF elements:Предохранитель FU 0 40 Y Y 1 F N
+F0 "FU" -25 150 60 H V C CNN
+F1 "elements:Предохранитель" 0 -150 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -200 75 200 -75 0 1 0 N
+P 2 0 1 0 -200 0 200 0 N
+X ~ 1 -400 0 200 R 50 50 1 1 I
+X ~ 2 400 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 #End Library
